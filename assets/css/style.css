@@ -335,11 +335,7 @@ h6,
   #hero {
     height: calc(100vh - 72px);
   }
-
-  #hero .animated {
-    animation: none;
-  }
-
+  
   #hero .hero-img {
     text-align: center;
   }
