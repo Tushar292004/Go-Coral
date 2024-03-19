@@ -10,7 +10,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #212529;
 }
-
+a
 a {
   color: var(--dark-theme-color);
   text-decoration: none;
@@ -168,6 +168,7 @@ h6,
   padding: 10px 25px;
   margin-left: 30px;
   border-radius: 50px;
+  text-decoration: none;
 }
 
 .navbar .getstarted:hover,
@@ -552,6 +553,7 @@ section {
 
 .services .title a {
   color: var(--dark-theme-color);
+  text-decoration: none;
 }
 
 .services .description {
@@ -917,6 +919,11 @@ section {
   transition: left ease-in-out 0.3s;
 }
 
+.row{
+    display: flex;
+    justify-content: center;
+}
+
 /*--------------------------------------------------------------
 # Contact Us
 --------------------------------------------------------------*/
@@ -1191,7 +1198,6 @@ section {
 
 #footer .copyright {
   text-align: center;
-  float: left;
 }
 
 #footer .credits {
@@ -1215,3 +1221,4 @@ section {
     padding: 3px 0;
   }
 }
+
